@@ -37,6 +37,21 @@
         <module>dispatcher</module>
         <module>ui.tests</module>
     </modules>
+       <distributionManagement>
+    
+
+    <repository>
+        <id>central-lpb-read</id>
+        <name>feature-lpb-libs-release</name>
+        <url>https://aemfeature.jfrog.io/artifactory/feature-lpb-libs-release</url>
+    </repository>
+     <snapshotRepository>
+        <id>central-lpb-read</id>
+        <name>feature-lpb-libs-release-snapshot</name>
+        <url>https://aemfeature.jfrog.io/artifactory/feature-lpb-libs-snapshot</url>
+    </snapshotRepository>
+     
+</distributionManagement>
 
     <properties>
         <aem.host>localhost</aem.host>
