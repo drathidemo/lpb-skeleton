@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/skeleton/clientlibs"/>
+    <filter root="/apps/skeleton/components"/>
+    <filter root="/apps/skeleton/i18n"/>
+</workspaceFilter>
