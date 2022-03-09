@@ -37,12 +37,13 @@
         <module>dispatcher</module>
         <module>ui.tests</module>
     </modules>
-       <repositories>
-    <snapshot/>
-        <id>central-lpb-read</id>
-       <name>livescenarios-libs-release</name>
-       <url>https://livescenarios.jfrog.io/artifactory/livescenarios-libs-release</url>
-    </repository>
+    <repositories>
+       <repository>
+          <snapshots/>
+          <id>central-lpb-read</id>
+          <name>livescenarios-libs-release</name>
+          <url>https://livescenarios.jfrog.io/artifactory/livescenarios-libs-release</url>
+      </repository>
    
     </repositories>
 
