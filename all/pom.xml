@@ -205,7 +205,7 @@
           <dependency>
                 <groupId>livescenarios</groupId>
                 <artifactId>livescenarios.all</artifactId>
-                <version>1.0</version>
+                <version>[1.0,)</version>
                  <type>zip</type>
                 
         </dependency>
