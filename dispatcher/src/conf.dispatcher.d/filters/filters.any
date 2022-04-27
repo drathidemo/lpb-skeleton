@@ -11,3 +11,9 @@ $include "./default_filters.any"
 
 # Allow manifest.webmanifest files located in the content
 /0102 { /type "allow" /extension "webmanifest" /path "/content/*/manifest" }
+
+/0103 { /type "allow"  /extension "json" /path "/content/*" }
+/0104 { /type "allow" /url "/content/*" }
+/0105 { /type "deny"  /selectors 'tidy|infinity|jcr:content' }
+/0106 { /type "deny" /url "/content/*/mcDetails/*" }
+/0107 { /type "deny" /url "/content/*/mcDetails*" }
